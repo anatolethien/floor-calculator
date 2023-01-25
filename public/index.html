@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculator 🚀</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="hero is-fullheight is-info">
+      <div class="hero-head">
+        <div class="container has-text-centered my-5">
+          <h1 class="title">Calculator 🚀</h1>
+        </div>
+      </div>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <article class="media">
+            <div class="media-content">
+              <form id="calculator">
+                <div class="field has-addons">
+                  <div class="control is-expanded">
+                    <input
+                      type="text"
+                      placeholder="Mathematical expression"
+                      autocomplete="off"
+                      id="expression"
+                      class="input is-large"
+                    />
+                  </div>
+                  <div class="control">
+                    <button
+                      type="submit"
+                      class="button is-large is-info is-light"
+                    >
+                      Calculate
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </article>
+          <article class="media">
+            <div class="media-content">
+              <p id="result" class="title">
+                <!-- JavaScript generated result -->
+                &nbsp;
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
