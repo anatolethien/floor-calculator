@@ -5,3 +5,5 @@ This simple calculator allows the user to compute mathematical expressions. Plea
 Try the app at [anatolethien.github.io/floor-calculator](https://anatolethien.github.io/floor-calculator)!
 
 Have fun crunching numbers!
+
+⚠ Do not use in production, the use of the `eval` function makes this application highly insecure.
